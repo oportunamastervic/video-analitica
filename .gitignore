@@ -1,0 +1,55 @@
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de configuración y dependencias
+*.env
+*.lock
+*.log
+*.ini
+*.cfg
+
+# Archivos creados por herramientas de desarrollo
+.mypy_cache/
+.pytest_cache/
+.tox/
+coverage/
+*.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+.cache/
+
+# Archivos de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos creados por editores/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos de bases de datos locales
+*.db
+*.sqlite3
+
+# Archivos de empaquetado y distribución
+build/
+dist/
+*.egg
+*.wheel
+
+# Archivos de pruebas o dumps
+debug.log
+*.stackdump
+
+# Archivos de documentación generados automáticamente
+docs/_build/
